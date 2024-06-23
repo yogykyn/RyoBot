@@ -1,0 +1,42 @@
+{
+  "private": true,
+  "name": "ryobot",
+  "description": "",
+  "version": "0.1.0",
+  "main": "./src/main.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc --pretty",
+    "build:watch": "npx tsc --pretty --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogykyn/ryobot.git"
+  },
+  "keywords": [
+    "ryobot",
+    "bot",
+    "whatsapp"
+  ],
+  "author": "Yoga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yogykyn/ryobot/issues"
+  },
+  "homepage": "https://github.com/yogykyn/ryobot#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/figlet": "^1.5.8",
+    "@types/node": "^20.14.2",
+    "tsx": "^4.15.5",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.5",
+    "figlet": "^1.7.0",
+    "mysql2": "^3.10.1",
+    "pino": "^9.2.0",
+    "rotating-file-stream": "^3.2.3"
+  }
+}
