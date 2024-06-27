@@ -1,4 +1,5 @@
 <div align="center">
+  <img src="ryo.gif" alt="Ryo yamada gif" width="385" />
   <h1>RyoBot</h1>
   <p><code>Sebuah bot whatsapp yang gratis dan open source ✨👋</code></p>
   <span>
