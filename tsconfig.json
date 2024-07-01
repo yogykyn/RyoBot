@@ -9,6 +9,7 @@
     "skipLibCheck": true,
     "strictNullChecks": true,
     "noImplicitAny": true,
+    "baseUrl": ".",
     "alwaysStrict": true,
     "noImplicitReturns": true,
     "noImplicitOverride": true,
@@ -16,12 +17,11 @@
     "newLine": "lf",
     "outDir": "dist",
     "paths": {
-      "@/*": ["./src/*"],
+      "@/*": ["src/*"],
+      "@commands/*": ["src/commands/*"],
     }
   },
   "include": [
-    "app/**/*",
-    "libs/**/*",
     "src/**/*",
   ],
   "exclude": [
